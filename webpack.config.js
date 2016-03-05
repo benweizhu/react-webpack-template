@@ -13,6 +13,11 @@ module.exports = {
           presets: ['es2015', 'react']
         }
       },
+      {
+        test: /\.js$/,
+        loader: "eslint-loader",
+        exclude: /node_modules/
+      }
     ]
   }
 };

@@ -1,14 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
+const propTypes = {
+  name: React.PropTypes.string.isRequired,
+};
+
+const defaultProps = {
+  name: 'React',
+};
 
 class Hello extends React.Component {
-  constructor(props){
-    super(props);
-  }
-
-  render(){
-    return <h1>Hello React!</h1>;
+  render() {
+    return <h1>Hello, {this.props.name}!</h1>;
   }
 }
+
+Hello.propTypes = propTypes;
+Hello.defaultProps = defaultProps;
 
 export default Hello;

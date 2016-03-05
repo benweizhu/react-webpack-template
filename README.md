@@ -1,5 +1,14 @@
 # react-webpack-template
 
+This is react webpack template include all necessary functions.
+
+React Component with ES6 Support    
+Jest with ES6 Support    
+Eslint extends airbnb   
+
+
+# Fork from https://github.com/petehunt/react-webpack-template
+
 This is a simple template for building React apps. Use this to get started, and if you find yourself needing additional features, see my [webpack-howto](https://github.com/petehunt/webpack-howto).
 
 ## How to use this

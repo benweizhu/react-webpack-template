@@ -8,11 +8,11 @@ import Hello from '../index.js';
 describe('Hello', () => {
   it('check text content', () => {
     const hello = TestUtils.renderIntoDocument(
-      <Hello/>
+      <Hello name="Benwei"/>
     );
 
     const helloNode = ReactDOM.findDOMNode(hello);
 
-    expect(helloNode.textContent).toEqual('Hello React!');
+    expect(helloNode.textContent).toEqual('Hello, Benwei!');
   });
 });
