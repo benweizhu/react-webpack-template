@@ -3,6 +3,7 @@ jest.unmock('../index.jsx');
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
+
 import Hello from '../index.jsx';
 
 describe('Hello', () => {
@@ -12,7 +13,6 @@ describe('Hello', () => {
     );
 
     const helloNode = ReactDOM.findDOMNode(hello);
-
     expect(helloNode.textContent).toEqual('Hello, Benwei!');
   });
 });

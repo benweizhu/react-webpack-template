@@ -1,7 +1,9 @@
 import React from 'react';
-import classnames from 'classnames';
+import classnames from 'classnames/bind';
 
 import styles from './Hello.scss';
+
+const cx = classnames.bind(styles);
 
 const propTypes = {
   name: React.PropTypes.string.isRequired,
@@ -13,7 +15,7 @@ const defaultProps = {
 
 class Hello extends React.Component {
   render() {
-    return <h1 className={ classnames(styles.red, styles.border) }>Hello, { this.props.name }!</h1>;
+    return <h1 className={ cx('red', 'border') }>Hello, { this.props.name }!</h1>;
   }
 }
 
