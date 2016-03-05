@@ -1,6 +1,6 @@
 # react-webpack-template
 
-This is react webpack template include all necessary functions.
+This is react webpack templates include all necessary functions.
 
 React Component with ES6 Support    
 Jest with ES6 Support    
