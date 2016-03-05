@@ -1,9 +1,9 @@
-jest.unmock('../index.js');
+jest.unmock('../index.jsx');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
-import Hello from '../index.js';
+import Hello from '../index.jsx';
 
 describe('Hello', () => {
   it('check text content', () => {

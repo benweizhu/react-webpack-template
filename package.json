@@ -36,7 +36,6 @@
     ],
     "collectCoverage": true,
     "testFileExtensions": [
-      "es6",
       "js"
     ],
     "moduleFileExtensions": [
