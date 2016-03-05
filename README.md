@@ -4,7 +4,8 @@ This is react webpack template include all necessary functions.
 
 React Component with ES6 Support    
 Jest with ES6 Support    
-Eslint extends airbnb   
+Eslint extends airbnb    
+CSS Modules  
 
 
 ### Fork from https://github.com/petehunt/react-webpack-template
